@@ -10,7 +10,6 @@ Pour avoir accès au site : https://pizzaland.herokuapp.com/
 
 ## Pour lancer l'application localement
 
-<br/>
 
 ### 1. Cloner ce dépôt GitHub : 
 
@@ -43,13 +42,13 @@ $ npm start
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
 <br/>
-## Ajouter des pizzas
+### Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
 <br/>
-## Se connecter en tant qu'admin
+### Se connecter en tant qu'admin
 - email : admin@gmail.com
 - mot de passe: 1234
 
