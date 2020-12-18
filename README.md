@@ -36,18 +36,18 @@ $ npm install
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 $ npm start
 ```
-<br/>
-## Ajouter des utilisateurs
+
+### Ajouter des utilisateurs
 
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
-<br/>
+
 ### Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
-<br/>
+
 ### Se connecter en tant qu'admin
 - email : admin@gmail.com
 - mot de passe: 1234
