@@ -9,14 +9,16 @@ Pour avoir accès au site : https://pizzaland.herokuapp.com/
 <br/><br/>
 
 ## Pour lancer l'application localement
+
 <br/>
-## 1. Cloner ce dépôt GitHub : 
+
+### 1. Cloner ce dépôt GitHub : 
 
 ```
 $ git clone git@github.com:Elsa-R/Pizzeria.git
 ```
 
-## 2. Lancer le backend
+### 2. Lancer le backend
 
 ```
 # ouvrir un terminal
@@ -24,7 +26,7 @@ $ npm install
 $ npm start
 ```
 
-## 3. Lancer le frontend
+### 3. Lancer le frontend
 
 ```
 # ouvrir un terminal
@@ -36,20 +38,20 @@ $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @for
 $ npm start
 ```
 <br/>
-#### Ajouter des utilisateurs
+## Ajouter des utilisateurs
 
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
 <br/>
-#### Ajouter des pizzas
+## Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
 <br/>
-#### Se connecter en tant qu'admin
+## Se connecter en tant qu'admin
 - email : admin@gmail.com
 - mot de passe: 1234
 
-<br/>
+<br/><br/>
 Projet réalisé avec @camilleyh11
