@@ -8,7 +8,7 @@ Cette application full stack permet de commander des pizzas et a été réalisé
 Pour avoir accès au site : https://pizzaland.herokuapp.com/
 <br/><br/>
 
-### Pour lancer l'application localement
+## Pour lancer l'application localement
 <br/>
 ## 1. Cloner ce dépôt GitHub : 
 
@@ -36,18 +36,18 @@ $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @for
 $ npm start
 ```
 <br/>
-## Ajouter des utilisateurs
+#### Ajouter des utilisateurs
 
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
 <br/>
-## Ajouter des pizzas
+#### Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
 <br/>
-## Se connecter en tant qu'admin
+#### Se connecter en tant qu'admin
 - email : admin@gmail.com
 - mot de passe: 1234
 
