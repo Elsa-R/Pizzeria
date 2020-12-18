@@ -6,7 +6,7 @@ Cette application full stack permet de commander des pizzas et a été réalisé
 <br/><br/><br/>
 
 Pour avoir accès au site : https://pizzaland.herokuapp.com/
-
+<br/>
 
 ### Pour lancer l'application localement
 
@@ -30,20 +30,21 @@ $ npm start
 # ouvrir un terminal
 $ cd frontend
 $ npm install
+
 # kits d'outils Font Awesome
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 $ npm start
 ```
 
-### Ajouter des utilisateurs
+## Ajouter des utilisateurs
 
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
 
-### Ajouter des pizzas
+## Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
-
+<br/><br/>
 Projet réalisé avec @camilleyh11
