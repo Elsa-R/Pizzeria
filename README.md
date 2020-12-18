@@ -3,10 +3,10 @@ Réalisé dans le cadre de la matière INFO734 - Développement Full Stack
 
 <br/>
 Cette application full stack permet de commander des pizzas et a été réalisée avec la solution MERN composée de MongoDB, Express JS, React et NodeJS.
-<br/><br/><br/>
+<br/><br/>
 
 Pour avoir accès au site : https://pizzaland.herokuapp.com/
-<br/><br/><br/>
+<br/><br/>
 
 ### Pour lancer l'application localement
 <br/>
@@ -35,16 +35,16 @@ $ npm install
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 $ npm start
 ```
-<br/><br/>
+<br/>
 ## Ajouter des utilisateurs
 
 - Enlever le commentaire "//await User.remove({});" qui est dans le fichier userRouter.js
 - Aller sur : http://localhost:5000/api/users/seed
-<br/><br/>
+<br/>
 ## Ajouter des pizzas
 
 - Enlever le commentaire "//await Product.remove({});" qui est dans le fichier productRouter.js
 - Aller sur : http://localhost:5000/api/products/seed
 
-<br/><br/>
+<br/>
 Projet réalisé avec @camilleyh11
