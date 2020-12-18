@@ -47,4 +47,9 @@ $ npm start
 - Aller sur : http://localhost:5000/api/products/seed
 
 <br/>
+## Se connecter en tant qu'admin
+- email : admin@gmail.com
+- mot de passe: 1234
+
+<br/>
 Projet réalisé avec @camilleyh11
